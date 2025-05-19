@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ShapeViewerAppApp: App {
+	@State private var shapeViewerCoordinator = ShapeViewerCoordinator(dataModel: .init())
+	
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			self.shapeViewerCoordinator.contentView
         }
     }
 }
