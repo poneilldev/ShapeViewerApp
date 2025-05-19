@@ -24,14 +24,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B21BBEE2DDB6332000EDE0F /* ShapeViewerApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ShapeViewerApp.xctestplan; sourceTree = "<group>"; };
 		0BC700752DD8F03B004788E0 /* ShapeViewerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeViewerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC700832DD8F03C004788E0 /* ShapeViewerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeViewerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC7008D2DD8F03C004788E0 /* ShapeViewerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeViewerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0BC724842DD90F0B004788E0 /* Exceptions for "ShapeViewerApp" folder in "ShapeViewerApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0BC700742DD8F03B004788E0 /* ShapeViewerApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0BC700772DD8F03B004788E0 /* ShapeViewerApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0BC724842DD90F0B004788E0 /* Exceptions for "ShapeViewerApp" folder in "ShapeViewerApp" target */,
+			);
 			path = ShapeViewerApp;
 			sourceTree = "<group>";
 		};
@@ -75,6 +89,7 @@
 		0BC7006C2DD8F03B004788E0 = {
 			isa = PBXGroup;
 			children = (
+				0B21BBEE2DDB6332000EDE0F /* ShapeViewerApp.xctestplan */,
 				0BC700772DD8F03B004788E0 /* ShapeViewerApp */,
 				0BC700862DD8F03C004788E0 /* ShapeViewerAppTests */,
 				0BC700902DD8F03C004788E0 /* ShapeViewerAppUITests */,
@@ -178,6 +193,7 @@
 					};
 					0BC700822DD8F03C004788E0 = {
 						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
 						TestTargetID = 0BC700742DD8F03B004788E0;
 					};
 					0BC7008C2DD8F03C004788E0 = {
@@ -393,6 +409,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShapeViewerApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -430,6 +447,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShapeViewerApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -461,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -472,6 +491,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapeViewerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShapeViewerApp";
@@ -483,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
