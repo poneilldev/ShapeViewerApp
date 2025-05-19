@@ -33,7 +33,10 @@ final class ShapeViewerCoordinator {
 	let service: ShapeServiceProtocol
 	let dataModel: DataModel
 	
-	init(dataModel: DataModel, service: ShapeServiceProtocol = ShapeService()) {
+	init(
+		dataModel: DataModel = .init(),
+		service: ShapeServiceProtocol = ShapeService()
+	) {
 		self.service = service
 		self.dataModel = dataModel
 	}

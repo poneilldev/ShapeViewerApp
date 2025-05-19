@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct ShapeViewerAppApp: App {
-	@State private var shapeViewerCoordinator = ShapeViewerCoordinator(dataModel: .init())
+	@State private var shapeViewerCoordinator = ShapeViewerCoordinator()
 	
     var body: some Scene {
         WindowGroup {
