@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "22BE1772-0620-440B-9023-4CF5A55E2B1F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ShapeViewerApp.xcodeproj",
+      "identifier" : "0BC700742DD8F03B004788E0",
+      "name" : "ShapeViewerApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ShapeViewerApp.xcodeproj",
+        "identifier" : "0BC700822DD8F03C004788E0",
+        "name" : "ShapeViewerAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
